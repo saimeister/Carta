@@ -28,4 +28,9 @@ Run command: python Parse_Aggregate.py
 5. Running the image as a docker container
 	a. docker run -d -p 8080:8080 carta_image
 	(use -d to run in detach mode, also replace carta_image with the tag you used in step 4.a)
+	
 6. Now you can access the data either through your browser: http://localhost:8080 or through terminal using "curl http://localhost:8080"
+
+
+NOTE:
+Please note, I did not convert the IpV6 to IpV4
